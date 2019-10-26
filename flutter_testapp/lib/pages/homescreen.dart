@@ -5,14 +5,19 @@ class HomePage extends StatelessWidget{
 @override
   Widget build(BuildContext context) {
     
-    var container = Container(
-
+     var container =  Scrollbar(
+    
+    
+     child : Container(
       height: 300.0,
       width: 300.0,
       color: Colors.deepOrange,
-      child: Center(
-      child: Text("My App"),
-      ));
+      child :FadeInImage.assetNetwork(
+                placeholder:'loader.gif',
+                image: "https://avatars0.githubusercontent.com/u/30316193?s=460&v=4",
+                ),
+      )
+   );
 
     var _appbar =  AppBar(
         title: Text("My App"),
@@ -47,31 +52,32 @@ class HomePage extends StatelessWidget{
                                       ),
                                     )
       );
-     
 
     var homescreen =  Scaffold(
 
       appBar:_appbar,
-      body: Builder(
-        builder: (context)=>Center(child: container,)
-        
-      ),
-      floatingActionButton: _floatingButton
+      body:Center(child:container),
+      floatingActionButton: _floatingButton,
 
     );
 
     return homescreen;
+
   }
 
+     
   Widget _showSnackBar(BuildContext context,String content)
   {
-    final snackbar =  SnackBar(
-      content: Text(""+content),
-      duration: Duration(seconds:2),
-    );
-
-    Scaffold.of(context).showSnackBar(snackbar);
-    return snackbar;
+     final snackbar =  SnackBar(
+              content: Text(""+content),
+              duration: Duration(seconds:3),
+              action: SnackBarAction(
+                label: "Done",
+                onPressed: (){},
+              ),
+            );
+        Scaffold.of(context).showSnackBar(snackbar);
+        return snackbar;
   }
 
 }
