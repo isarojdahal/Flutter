@@ -9,13 +9,12 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     
       return MaterialApp(
-
+        title: "Nothing at all",
         theme: ThemeData(
           primarySwatch: Colors.deepPurple
         ),
         debugShowCheckedModeBanner: false,
         home: HomePage(),
       );
-  }
-
+    }
 }
