@@ -14,7 +14,7 @@ class _BottomTab extends StatefulWidget {
 
 class _BottomTabState extends State<_BottomTab> with SingleTickerProviderStateMixin {
 
-  static const  _TabPages = <Widget>[
+   static const  _TabPages = <Widget>[
     _tab1Widget(),
 
     Center(
