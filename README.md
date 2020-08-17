@@ -1,18 +1,19 @@
 ![Flutter Logo](src/flutter_logo.jpeg)
 
 
-## Flutter Projects, Experiments, Challenges and other good stuffs 
+## Flutter Projects, Experiments, Challenges and other good stuffs :star2: 
 
-### This repo consists of several flutter projects which is helpful for newbee in flutter, intermediates, and who want to learn more about flutter. Flutter projects in this repo is extracted from various open-source github repos, and some of our own personal projects and soon, **so as to make one hub** for flutter projects.
+#### This repo consists of several flutter projects which is helpful for newbee in flutter, intermediates, and who want to learn more about flutter. Flutter projects in this repo is extracted from various open-source github repos, and some of our own personal projects and soon, **so as to make one hub** for open-source flutter projects.
 
 &nbsp;
 
-## Projects
+## Contents
 
-| S.N | Content                                                                                         | Description                   | Type      |
+| S.N | Projects                                                                                        | Description                   | For       |
 | --- | ----------------------------------------------------------------------------------------------- | ----------------------------- | --------- |
 | 1.  | [Flutter List View](https://github.com/originalsaroj/Flutter/)                                  | Usuage of Flutter List View   | Beginners |
 | 2.  | [Sign in Sign up UI](https://github.com/originalsaroj/Flutter/tree/master/SignIn_and_SignUp_UI) | A simple Signin and Signup UI | Beginners |
+| 3.  | [Whatsapp Redesign](https://github.com/originalsaroj/Flutter/tree/master/whatsapp_redesign)     | A simple WhatsApp Redesign    | Beginners |
 
 
 &nbsp;
